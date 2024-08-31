@@ -1,0 +1,8 @@
+/downloads
+config/*
+!config/qbittorrent/
+config/qbittorrent/cache
+config/qbittorrent/data
+!config/qbittorrent/config
+config/qbittorrent/config/*
+!config/qbittorrent/config/qbittorrent.conf
