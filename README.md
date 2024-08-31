@@ -24,3 +24,11 @@ git clone git@github.com:Subhransu-De/qBittorrent-nox-starter.git
 cd qBittorrent-nox-starter
 sh ./start.sh
 ```
+#### Login page
+
+    https://localhost:8080
+
+#### Default credentials
+
+    Username: admin
+    Password: password
