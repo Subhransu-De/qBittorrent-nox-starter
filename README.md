@@ -32,3 +32,5 @@ sh ./start.sh
 
     Username: admin
     Password: password
+
+> Important: Change the default password immediately after your first login.
