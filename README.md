@@ -1,5 +1,7 @@
 # qBittorrent-nox Starter Configuration
 
+[![Snyk security](https://snyk.io/test/github/Subhransu-De/qBittorrent-nox-starter/badge.svg)](https://snyk.io/test/github/Subhransu-De/qBittorrent-nox-starter)
+
 ## Overview
 
 This repository provides an opinionated starter configuration for qBittorrent-nox, designed to streamline the setup process.
