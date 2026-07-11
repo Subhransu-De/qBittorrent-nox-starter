@@ -37,6 +37,6 @@ sh ./start.sh
 
 ## Maintenance
 
-The qBittorrent image is pinned to the latest stable image release. Dependabot checks daily for stable image and GitHub Actions updates.
+The qBittorrent base image is pinned to the latest stable image release in the Dockerfile. Dependabot checks daily for stable image and GitHub Actions updates.
 
-GitHub Actions validates the Compose configuration, lints shell scripts and workflows, starts the image far enough to check its version, scans Git history with Gitleaks, and scans the container image with Trivy.
+GitHub Actions validates the Compose configuration, lints shell scripts and workflows, starts the image far enough to check its version, and scans Git history with Gitleaks. The connected Snyk GitHub integration monitors the Dockerfile and its pinned base image for vulnerabilities.
