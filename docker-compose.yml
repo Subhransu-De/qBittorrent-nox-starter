@@ -1,9 +1,9 @@
 services:
   qbittorrent-nox:
-    image: qbittorrentofficial/qbittorrent-nox:${NOX_VERSION:-latest}
+    image: qbittorrentofficial/qbittorrent-nox:5.2.2-1
     pull_policy: always
     environment:
-      - QBT_EULA=accept
+      - QBT_LEGAL_NOTICE=confirm
       - QBT_WEBUI_PORT=8080
     ports:
       - "8080:8080/tcp"

@@ -34,3 +34,9 @@ sh ./start.sh
     Password: password
 
 > Important: Change the default password immediately after your first login.
+
+## Maintenance
+
+The qBittorrent image is pinned to the latest stable image release. Dependabot checks daily for stable image and GitHub Actions updates.
+
+GitHub Actions validates the Compose configuration, lints shell scripts and workflows, starts the image far enough to check its version, scans Git history with Gitleaks, and scans the container image with Trivy.
